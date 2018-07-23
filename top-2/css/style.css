@@ -1,0 +1,107 @@
+/*RESET*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: tahoma;
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+	list-style: none;
+}
+
+/*Main Classes*/
+
+.wrapper{
+	padding: 10px;
+}
+header{
+	background-color: black;
+}
+
+.mainMenu{
+	display: block;
+	background-color: black;
+
+}
+
+.mainMenu a{
+	color: white;
+	margin-left: 40px;
+}
+
+.mainMenu a:hover{
+	background-color:#950000;
+	color:white;
+	padding-top: 8px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+}
+
+.mainSidebar{
+	padding: 20px 0; 
+}
+
+section{
+	width: 80%;
+	padding-right: 100px;
+	float: right;
+}
+
+.back{
+	float: right;
+	background-color: #950000;
+	color: white;
+	font-weight: bold;
+	padding: 8px;
+}
+
+aside{
+	width: 17%;
+	height: 615px;
+	float: left;
+	background-color: black;
+}
+
+.sidebar{
+	padding-top: 50px;
+}
+
+.sidebar a{
+	display: block;
+	color: white;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.sidebar a:hover{
+	background: #950000;
+	border-radius: 4px;
+	color: white;
+	padding: 8px;
+}
+
+a.link{
+	float: right;
+}
+
+footer{
+	background-color: black;
+	width: 100%;
+	height: 100px;
+}
+
+footer p{
+	color: white;
+	padding: 60px 0 0 15px;  
+}
+
+/*Helper Classes*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
